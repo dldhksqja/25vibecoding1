@@ -105,4 +105,4 @@ if school_name:
 else:
     st.info("학교 이름을 입력하면 오늘 급식을 확인할 수 있어요!")
 
-st.markdown('<div class="footer">ⓒ 2025 급식 확인 앱 | by 이완범</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">ⓒ 2025 급식 확인 앱 | by LWB</div>', unsafe_allow_html=True)
