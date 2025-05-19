@@ -9,7 +9,7 @@ API_KEY = os.getenv("NEIS_API_KEY")
 
 # ✅ Streamlit 기본 세팅
 st.set_page_config(
-    page_title="오늘의 학교 급식",
+    page_title="오늘 뭐 나오냐?",
     page_icon="🍱",
     layout="centered"
 )
@@ -31,7 +31,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title">🍽️ 오늘의 급식 보기</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">🍽️ 오늘 뭐 나오냐?</div>', unsafe_allow_html=True)
 st.divider()
 
 # ✅ 학교 정보 조회 함수
